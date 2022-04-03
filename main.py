@@ -100,7 +100,7 @@ class Application(tk.Tk):
         plt.plot(self.t, self.u)
         plt.xlabel 
         plt.grid()
-        plt.legend()
+        
         plt.legend([self.jmeno], loc='upper right')
         plt.show()
 
